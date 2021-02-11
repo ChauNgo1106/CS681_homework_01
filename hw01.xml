@@ -19,7 +19,7 @@
 	<target name="compile" depends="init">
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no">
 			<classpath refid="classpath" />
-			<include name="edu/umb/cs681/hw02/observer/DJJAQuoteObservable.java" />
+			<include name="edu/umb/cs681/hw01/observer/DJJAQuoteObservable.java" />
 		</javac>
 	</target>
 
